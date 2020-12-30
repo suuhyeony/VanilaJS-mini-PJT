@@ -1,4 +1,4 @@
-# Countdown timer App
+# Countdown timer webApp
 
 #### 기능
 
@@ -14,6 +14,6 @@
 
 </br>
 
-#### 이슈 사항
+#### 진행 및 이슈 사항
 
-(블로그 링크)
+https://velog.io/@suuhyeony/PJT-vanillaJS%EB%A1%9C-Countdown-timer-%EB%A7%8C%EB%93%A4%EA%B8%B0
