@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="event-name"></h1>
+    <form class="form event" id="event">
+        <input type="text" id="event-text" placeholder="What is your event?" />
+    </form>
+    <form class="form date" id="d-date">
+        <input type="text" id="date-text" placeholder="When is your D-day?" title="ex: 1 Jan 2021" />
+      </form>
+    <div class="countdown-container">
+        <div class="time days_c">
+            <p class="big-text" id="days">0</p>
+            <span>days</span>
+        </div>
+        <div class="time hours_c">
+            <p class="big-text" id="hours">0</p>
+            <span>hours</span>
+        </div>
+        <div class="time minutes_c">
+            <p class="big-text" id="minutes">0</p>
+            <span>minutes</span>
+        </div>
+        <div class="time seconds_c">
+            <p class="big-text" id="seconds">0</p>
+            <span>seconds</span>
+        </div>
+    </div>
+    <button class="button-reset">Reset Event</button>
+</body>
+</html>

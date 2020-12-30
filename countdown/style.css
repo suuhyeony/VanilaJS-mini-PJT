@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Lora:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./image/pink\ sky.jpg');
+    background-size: cover;
+    margin: 0;
+    /* font-family: 'Galada', cursive; */
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(70, 68, 68);
+}
+
+.form,
+.event-name {
+    display: none;
+}
+
+
+.showing {
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    
+}
+
+.showing input {
+    padding: 0.3rem;
+    background: none;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid rgb(235, 144, 159);
+}
+
+.showing input:focus {
+    outline: none;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.countdown-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0 4rem;
+}
+
+.time {
+    text-align: center;
+}
+
+. time span {
+    font-size: 1.7rem;
+}
+
+button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    padding: 0.25rem 1rem;
+    box-shadow: 0 0 0.25em rgba(0,0,0,0.2);
+    font-family: inherit;
+    background-color: rgb(222, 242, 248);
+    border-radius: 40px;
+    color: rgb(70, 68, 68);
+}
+
+button:hover {
+    background-color: rgb(217, 234, 240);
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+button:active {
+    background-color: rgb(178, 195, 201);
+}
