@@ -11,8 +11,8 @@
 
 - [X] 2. Quiz App
 
-![quiz1](https://user-images.githubusercontent.com/58247800/103654608-740cdf00-4fa9-11eb-8fda-8724d57458c1.PNG)
-![quiz2](https://user-images.githubusercontent.com/58247800/103654618-77a06600-4fa9-11eb-8ebd-e81aa1bb3a80.PNG)
+![quiz1](https://user-images.githubusercontent.com/58247800/103654859-c6e69680-4fa9-11eb-86e1-d9469254e9eb.PNG)
+![quiz2](https://user-images.githubusercontent.com/58247800/103654864-ca7a1d80-4fa9-11eb-874b-7455f7ad532c.PNG)
 
 <br>
 
