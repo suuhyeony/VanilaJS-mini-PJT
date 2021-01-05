@@ -9,8 +9,8 @@
 <br>
 
 #### 결과 화면
-
-
+![quiz1](https://user-images.githubusercontent.com/58247800/103654859-c6e69680-4fa9-11eb-86e1-d9469254e9eb.PNG)
+![quiz2](https://user-images.githubusercontent.com/58247800/103654864-ca7a1d80-4fa9-11eb-874b-7455f7ad532c.PNG)
 
 <br>
 
