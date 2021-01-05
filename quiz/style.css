@@ -6,7 +6,8 @@
 }
 
 body {
-    background: linear-gradient( to right, #ff9966, #ff5e62 );
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    /* background: linear-gradient(to right, #f7971e, #ffd200); */
     margin: 0;
     display: flex;
     justify-content: center;
