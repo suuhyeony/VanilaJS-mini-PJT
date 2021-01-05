@@ -8,35 +8,36 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="quiz-container">
-        <h2>Question</h2>
+    <div class="quiz-container" id="quiz">
+        <h2 id="question">Question</h2>
         <div class="answer-container">
             <ul>
                 <li>
-                    <input type="radio" id="a" name="answer">
-                    <label for="a">answer</label>
+                    <input type="radio" id="a" class="answer" name="myRadio">
+                    <label id="a_text" for="a">answer</label>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <input type="radio" id="b" name="answer">
-                    <label for="b">answer</label>
+                    <input type="radio" id="b" class="answer" name="myRadio">
+                    <label id="b_text" for="b">answer</label>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <input type="radio" id="c" name="answer">
-                    <label for="c">answer</label>
+                    <input type="radio" id="c" class="answer" name="myRadio">
+                    <label id="c_text" for="c">answer</label>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <input type="radio" id="d" name="answer">
-                    <label for="d">answer</label>
+                    <input type="radio" id="d" class="answer" name="myRadio">
+                    <label id="d_text" for="d">answer</label>
                 </li>
             </ul>
-            <button>Next</button>
         </div>
+        <progress value="0" max="100"></progress>
+        <button>다음 문제</button>
     </div>
 </body>
 </html>

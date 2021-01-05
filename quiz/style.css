@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Noto+Serif+KR:wght@400;600&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Noto Serif KR', serif;
 }
 
 body {
@@ -14,23 +17,41 @@ body {
 
 .quiz-container {
     background-color: white;
-    width: 450px;
+    width: 550px;
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 90, 0.3);
     overflow: hidden;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
 h2 {
     margin-bottom: 2rem;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    /* white-space: pre-line; */
+}
+
+progress {
+    width: 200px;
+}
+
+.answer-container {
+    padding: 5px;
 }
 
 ul li {
     list-style: none;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
+ul li label {
+    cursor: pointer;
+}
 
 button {
     margin-top: 2rem;
@@ -54,4 +75,16 @@ button:active {
     border: none;
     outline: none;
     background-color: rgb(51, 73, 145);
+}
+
+table {
+    border: 1px solid gray;
+    width: 50%;
+    align-content: center;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 5px;
 }
