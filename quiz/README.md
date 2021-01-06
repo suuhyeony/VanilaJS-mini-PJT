@@ -16,3 +16,4 @@
 
 #### 진행 및 이슈 사항
 
+https://velog.io/@suuhyeony/PJT-vanillaJS%EB%A1%9C-quiz-webApp-%EB%A7%8C%EB%93%A4%EA%B8%B0
