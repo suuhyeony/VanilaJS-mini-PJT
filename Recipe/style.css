@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.app-container {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #3333331a;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 400px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.searchbar input {
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;    
+}
+
+.searchbar button {
+    background-color: transparent;
+    border: none;
+    color: #aaa;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.fav-container {
+    background-color: rgb(226, 223, 223);
+    padding: 1rem;
+    text-align: center;
+}
+
+.fav-meals {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.fav-meals li {
+
+}
+
+.fav-meals li img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 75px;
+    width: 75px;
+}
+
+

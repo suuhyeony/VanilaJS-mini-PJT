@@ -4,30 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="app-container">
         <div class="header">
-            <div class="logo">myRecipe</div>
+            <!-- <div class="logo">myRecipe</div> -->
             <div class="searchbar">
                 <input type="text">
-                <button>search</button>
+                <button class="search"><i class="fas fa-search"></i></button>
             </div>
         </div>
         <div class="fav-container">
             <h3>favorite recipe</h3>
-            <div class="fav-meals">
-                <img src="" alt="">
-                <span>meal</span>
-            </div>
+            <ul class="fav-meals">
+                <li>
+                    <img src="https://www.themealdb.com/images/ingredients/Lime.png" alt="">
+                    <span>Lime</span>
+                </li>
+                <li>
+                    <img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt="">
+                    <span>Carbonara</span>
+                </li>
+                <li>
+                    <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/u55lbp1585564013.jpg" alt="">
+                    <span>salad</span>
+                </li>
+            </ul>
         </div>
         <div class="randomMeal-container">
-            <img src="" alt="">
-            <div class="random-bar">
-                <span>meal</span>
-                <button>heart</button>
+            <span class="random">
+                Random Recipe
+            </span>
+            <div class="meal">
+                <div class="meal-header">
+                    <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/sxysrt1468240488.jpg" alt="">
+                </div>
+                <div class="meal-body">
+                    <span>french fries</span>
+                    <button class="heart">
+                        <i class="fa fa-heart"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
