@@ -121,13 +121,15 @@ img {
 }
 
 .meal-body .fav-btn {
-    border: none;
+    border: 0;
+    outline: 0;
     background-color: transparent;
     color: lightgray;
     font-size: 1.2rem;
     cursor: pointer;
 }
 
-.meal-body .fav-btn.active {
+.meal-body .fav-btn .active {
     color: tomato;
+    
 }

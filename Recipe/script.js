@@ -20,7 +20,7 @@ function loadRandomMeal(mealData, random = false) {
     meal.innerHTML = `
         <div class="meal-header">
             ${random ? `<span class="random">
-            Random Recipe
+            Today's Recipe
             </span>` : ''}
             <img src="${mealData.strMealThumb}" alt="${mealData.strMeal}">
         </div>
@@ -31,6 +31,12 @@ function loadRandomMeal(mealData, random = false) {
             </button>
         </div>
     `;
+
+    const btn = meal.querySelector(".meal-body .fav-btn");
+    
+    btn.addEventListener("click", (e) => {
+        e.target.classList.toggle("active");
+    });
 
     meals.appendChild(meal);
 }
